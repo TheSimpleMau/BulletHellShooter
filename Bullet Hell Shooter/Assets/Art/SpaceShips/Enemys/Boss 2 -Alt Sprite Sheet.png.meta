@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: 6517783b29e494ac2ba30f834152370f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 388065516683379817
+    second: Boss 2 -Alt Sprite Sheet_0
+  - first:
+      213: -6535745459321649660
+    second: Boss 2 -Alt Sprite Sheet_1
+  - first:
+      213: 8671447903227539545
+    second: Boss 2 -Alt Sprite Sheet_2
+  - first:
+      213: 740893337808981644
+    second: Boss 2 -Alt Sprite Sheet_3
+  - first:
+      213: -4999886097792710433
+    second: Boss 2 -Alt Sprite Sheet_4
+  - first:
+      213: -3727548777082577580
+    second: Boss 2 -Alt Sprite Sheet_5
+  - first:
+      213: -9220985193207985487
+    second: Boss 2 -Alt Sprite Sheet_6
+  - first:
+      213: 2864436502622599364
+    second: Boss 2 -Alt Sprite Sheet_7
+  - first:
+      213: -4907666175626247251
+    second: Boss 2 -Alt Sprite Sheet_8
+  - first:
+      213: -1244977393404941977
+    second: Boss 2 -Alt Sprite Sheet_9
+  - first:
+      213: -2900989803167034377
+    second: Boss 2 -Alt Sprite Sheet_10
+  - first:
+      213: -6189782953938186985
+    second: Boss 2 -Alt Sprite Sheet_11
+  - first:
+      213: 8169544630095922704
+    second: Boss 2 -Alt Sprite Sheet_12
+  - first:
+      213: 9176860490627926192
+    second: Boss 2 -Alt Sprite Sheet_13
+  - first:
+      213: 7004416083077896227
+    second: Boss 2 -Alt Sprite Sheet_14
+  - first:
+      213: -1039781177804701899
+    second: Boss 2 -Alt Sprite Sheet_15
+  - first:
+      213: -1655980545637141612
+    second: Boss 2 -Alt Sprite Sheet_16
+  - first:
+      213: 8605816455961837349
+    second: Boss 2 -Alt Sprite Sheet_17
+  - first:
+      213: 1142823595788372844
+    second: Boss 2 -Alt Sprite Sheet_18
+  - first:
+      213: -1063688240978345769
+    second: Boss 2 -Alt Sprite Sheet_19
+  - first:
+      213: 850883536731781255
+    second: Boss 2 -Alt Sprite Sheet_20
+  - first:
+      213: 6451576897599570932
+    second: Boss 2 -Alt Sprite Sheet_21
+  - first:
+      213: 488701544845822533
+    second: Boss 2 -Alt Sprite Sheet_22
+  - first:
+      213: 5432041952492499601
+    second: Boss 2 -Alt Sprite Sheet_23
+  - first:
+      213: -8310602780419077755
+    second: Boss 2 -Alt Sprite Sheet_24
+  - first:
+      213: 5859287702214036138
+    second: Boss 2 -Alt Sprite Sheet_25
+  - first:
+      213: 6869232717241319524
+    second: Boss 2 -Alt Sprite Sheet_26
+  - first:
+      213: 4248968259765913302
+    second: Boss 2 -Alt Sprite Sheet_27
+  - first:
+      213: -901686474358466657
+    second: Boss 2 -Alt Sprite Sheet_28
+  - first:
+      213: 7938343655887986635
+    second: Boss 2 -Alt Sprite Sheet_29
+  - first:
+      213: -4053241463980235228
+    second: Boss 2 -Alt Sprite Sheet_30
+  - first:
+      213: 6836028596118208941
+    second: Boss 2 -Alt Sprite Sheet_31
+  - first:
+      213: 1228491383188546524
+    second: Boss 2 -Alt Sprite Sheet_32
+  - first:
+      213: 1186200264634440026
+    second: Boss 2 -Alt Sprite Sheet_33
+  - first:
+      213: 6193387805656756175
+    second: Boss 2 -Alt Sprite Sheet_34
+  - first:
+      213: 2741397579446246530
+    second: Boss 2 -Alt Sprite Sheet_35
+  - first:
+      213: -2125806113577140577
+    second: Boss 2 -Alt Sprite Sheet_36
+  - first:
+      213: -7582058532599698824
+    second: Boss 2 -Alt Sprite Sheet_37
+  - first:
+      213: -7263642335392095707
+    second: Boss 2 -Alt Sprite Sheet_38
+  - first:
+      213: 6428129337049759754
+    second: Boss 2 -Alt Sprite Sheet_39
+  - first:
+      213: 6678740392350019852
+    second: Boss 2 -Alt Sprite Sheet_40
+  - first:
+      213: 953978835552340056
+    second: Boss 2 -Alt Sprite Sheet_41
+  - first:
+      213: 461853259005201258
+    second: Boss 2 -Alt Sprite Sheet_42
+  - first:
+      213: 1400958270581253832
+    second: Boss 2 -Alt Sprite Sheet_43
+  - first:
+      213: -4144634075066969032
+    second: Boss 2 -Alt Sprite Sheet_44
+  - first:
+      213: 6051729020689482855
+    second: Boss 2 -Alt Sprite Sheet_45
+  - first:
+      213: 4343827689286849465
+    second: Boss 2 -Alt Sprite Sheet_46
+  - first:
+      213: -6312141513005447548
+    second: Boss 2 -Alt Sprite Sheet_47
+  - first:
+      213: 4115740031078497590
+    second: Boss 2 -Alt Sprite Sheet_48
+  - first:
+      213: -2549378564502067552
+    second: Boss 2 -Alt Sprite Sheet_49
+  - first:
+      213: -3029123413495517491
+    second: Boss 2 -Alt Sprite Sheet_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 220
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964cd77088fa26500800000000000000
+      internalID: 388065516683379817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 220
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406c2c2f12e5c45a0800000000000000
+      internalID: -6535745459321649660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 220
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950fe28bceb275870800000000000000
+      internalID: 8671447903227539545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 220
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ece88b09e284a00800000000000000
+      internalID: 740893337808981644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 113
+        width: 62
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8c6a7a516dc9ab0800000000000000
+      internalID: -4999886097792710433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 156
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d1d0bf226154cc0800000000000000
+      internalID: -3727548777082577580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 156
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba83b752da780080800000000000000
+      internalID: -9220985193207985487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 156
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c87b7c92d580c720800000000000000
+      internalID: 2864436502622599364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 156
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3099d7d9774ebb0800000000000000
+      internalID: -4907666175626247251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 156
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769e4b828a3f8bee0800000000000000
+      internalID: -1244977393404941977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 114
+        width: 77
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3d235e42d9db7d0800000000000000
+      internalID: -2900989803167034377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 156
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d0fb1c239791aa0800000000000000
+      internalID: -6189782953938186985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 113
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01641959e8d006170800000000000000
+      internalID: 8169544630095922704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 112
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8c131cef1ca5f70800000000000000
+      internalID: 9176860490627926192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 115
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32814ea015fa43160800000000000000
+      internalID: 7004416083077896227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 121
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f30dc1784f191f0800000000000000
+      internalID: -1039781177804701899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 123
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493375ea776c409e0800000000000000
+      internalID: -1655980545637141612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 114
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ff0db98700e6770800000000000000
+      internalID: 8605816455961837349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 112
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b86e361002cdf00800000000000000
+      internalID: 1142823595788372844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 113
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0c9b43e250d31f0800000000000000
+      internalID: -1063688240978345769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 4
+        width: 12
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78830288112fecb00800000000000000
+      internalID: 850883536731781255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 49
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f30a86a10b988950800000000000000
+      internalID: 6451576897599570932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 36
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a48bd377738c600800000000000000
+      internalID: 488701544845822533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 42
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192b557206d726b40800000000000000
+      internalID: 5432041952492499601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5894fbb7dcecaac80800000000000000
+      internalID: -8310602780419077755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa484f0f1f505150800000000000000
+      internalID: 5859287702214036138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 50
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46009a6f2ca645f50800000000000000
+      internalID: 6869232717241319524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6c149ce1e57fa30800000000000000
+      internalID: 4248968259765913302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 43
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97d61dcde09c73f0800000000000000
+      internalID: -901686474358466657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 37
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfdd22fe79aa2e60800000000000000
+      internalID: 7938343655887986635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 51
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426e29e0d5effb7c0800000000000000
+      internalID: -4053241463980235228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 43
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1c9021ac37ede50800000000000000
+      internalID: 6836028596118208941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 43
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3e498776a7c0110800000000000000
+      internalID: 1228491383188546524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 38
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59920e1bda367010800000000000000
+      internalID: 1186200264634440026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 44
+        width: 73
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf2860356553f550800000000000000
+      internalID: 6193387805656756175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 4
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c520fe2966b0620800000000000000
+      internalID: 2741397579446246530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e71ea4a9e9f72e0800000000000000
+      internalID: -2125806113577140577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 4
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87aec22afed17c690800000000000000
+      internalID: -7582058532599698824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 4
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5222777c7cb523b90800000000000000
+      internalID: -7263642335392095707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 4
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a004e19039d453950800000000000000
+      internalID: 6428129337049759754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 4
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0173195007afac50800000000000000
+      internalID: 6678740392350019852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 4
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858865052b63d3d00800000000000000
+      internalID: 953978835552340056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b8c519715d86600800000000000000
+      internalID: 461853259005201258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6242fdf14317310800000000000000
+      internalID: 1400958270581253832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83457a7944d4b76c0800000000000000
+      internalID: -4144634075066969032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7648e1b1b7f0cf350800000000000000
+      internalID: 6051729020689482855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3d271d440684c30800000000000000
+      internalID: 4343827689286849465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4864051bcb4c668a0800000000000000
+      internalID: -6312141513005447548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63df94c80cb0e1930800000000000000
+      internalID: 4115740031078497590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 4
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6ebd8e3b9ce9cd0800000000000000
+      internalID: -2549378564502067552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 2 -Alt Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcee7cded4466f5d0800000000000000
+      internalID: -3029123413495517491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boss 2 -Alt Sprite Sheet_0: 388065516683379817
+      Boss 2 -Alt Sprite Sheet_1: -6535745459321649660
+      Boss 2 -Alt Sprite Sheet_10: -2900989803167034377
+      Boss 2 -Alt Sprite Sheet_11: -6189782953938186985
+      Boss 2 -Alt Sprite Sheet_12: 8169544630095922704
+      Boss 2 -Alt Sprite Sheet_13: 9176860490627926192
+      Boss 2 -Alt Sprite Sheet_14: 7004416083077896227
+      Boss 2 -Alt Sprite Sheet_15: -1039781177804701899
+      Boss 2 -Alt Sprite Sheet_16: -1655980545637141612
+      Boss 2 -Alt Sprite Sheet_17: 8605816455961837349
+      Boss 2 -Alt Sprite Sheet_18: 1142823595788372844
+      Boss 2 -Alt Sprite Sheet_19: -1063688240978345769
+      Boss 2 -Alt Sprite Sheet_2: 8671447903227539545
+      Boss 2 -Alt Sprite Sheet_20: 850883536731781255
+      Boss 2 -Alt Sprite Sheet_21: 6451576897599570932
+      Boss 2 -Alt Sprite Sheet_22: 488701544845822533
+      Boss 2 -Alt Sprite Sheet_23: 5432041952492499601
+      Boss 2 -Alt Sprite Sheet_24: -8310602780419077755
+      Boss 2 -Alt Sprite Sheet_25: 5859287702214036138
+      Boss 2 -Alt Sprite Sheet_26: 6869232717241319524
+      Boss 2 -Alt Sprite Sheet_27: 4248968259765913302
+      Boss 2 -Alt Sprite Sheet_28: -901686474358466657
+      Boss 2 -Alt Sprite Sheet_29: 7938343655887986635
+      Boss 2 -Alt Sprite Sheet_3: 740893337808981644
+      Boss 2 -Alt Sprite Sheet_30: -4053241463980235228
+      Boss 2 -Alt Sprite Sheet_31: 6836028596118208941
+      Boss 2 -Alt Sprite Sheet_32: 1228491383188546524
+      Boss 2 -Alt Sprite Sheet_33: 1186200264634440026
+      Boss 2 -Alt Sprite Sheet_34: 6193387805656756175
+      Boss 2 -Alt Sprite Sheet_35: 2741397579446246530
+      Boss 2 -Alt Sprite Sheet_36: -2125806113577140577
+      Boss 2 -Alt Sprite Sheet_37: -7582058532599698824
+      Boss 2 -Alt Sprite Sheet_38: -7263642335392095707
+      Boss 2 -Alt Sprite Sheet_39: 6428129337049759754
+      Boss 2 -Alt Sprite Sheet_4: -4999886097792710433
+      Boss 2 -Alt Sprite Sheet_40: 6678740392350019852
+      Boss 2 -Alt Sprite Sheet_41: 953978835552340056
+      Boss 2 -Alt Sprite Sheet_42: 461853259005201258
+      Boss 2 -Alt Sprite Sheet_43: 1400958270581253832
+      Boss 2 -Alt Sprite Sheet_44: -4144634075066969032
+      Boss 2 -Alt Sprite Sheet_45: 6051729020689482855
+      Boss 2 -Alt Sprite Sheet_46: 4343827689286849465
+      Boss 2 -Alt Sprite Sheet_47: -6312141513005447548
+      Boss 2 -Alt Sprite Sheet_48: 4115740031078497590
+      Boss 2 -Alt Sprite Sheet_49: -2549378564502067552
+      Boss 2 -Alt Sprite Sheet_5: -3727548777082577580
+      Boss 2 -Alt Sprite Sheet_50: -3029123413495517491
+      Boss 2 -Alt Sprite Sheet_6: -9220985193207985487
+      Boss 2 -Alt Sprite Sheet_7: 2864436502622599364
+      Boss 2 -Alt Sprite Sheet_8: -4907666175626247251
+      Boss 2 -Alt Sprite Sheet_9: -1244977393404941977
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
