@@ -49,16 +49,51 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/Patterns/Flower.cs" />
     <Compile Include="Assets/Scripts/Characters/Boss/BossWepon.cs" />
+    <Compile Include="Assets/Scripts/Characters/Player/PlayerMovement.cs" />
     <Compile Include="Assets/Scripts/Projectiles/EnemyProjectile.cs" />
     <Compile Include="Assets/Scripts/Environment/BackgroundController.cs" />
     <Compile Include="Assets/Scripts/Utils/DestroyOffScreen.cs" />
     <Compile Include="Assets/Scripts/Patterns/FlowerClosed.cs" />
+    <Compile Include="Assets/Scripts/Characters/Player/PlayerHealth.cs" />
+    <Compile Include="Assets/Scripts/Managers/UIManager.cs" />
     <Compile Include="Assets/Scripts/Patterns/Circle.cs" />
+    <Compile Include="Assets/Scripts/Characters/Player/PlayerShooting.cs" />
     <Compile Include="Assets/Scripts/Patterns/AttackPattern.cs" />
+    <Compile Include="Assets/Scripts/Patterns/Random.cs" />
     <Compile Include="Assets/Scripts/Environment/BackgroundScroller.cs" />
+    <Compile Include="Assets/Scripts/Projectiles/PlayerProjectile.cs" />
     <Compile Include="Assets/Scripts/Patterns/Spiral.cs" />
     <Compile Include="Assets/Scripts/Characters/Boss/BossMovment.cs" />
     <Compile Include="Assets/Scripts/Managers/StageManager.cs" />
+    <Compile Include="Assets/Scripts/Characters/Boss/BossHealth.cs" />
+    <Compile Include="Assets/Scripts/Utils/CameraBoundsHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/Scripts/codigos.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/Scripts/Characters/codigos.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

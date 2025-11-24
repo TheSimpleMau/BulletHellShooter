@@ -8,7 +8,7 @@ public abstract class AttackPattern : ScriptableObject
 {
     [Header("Configuración General")]
     public float fireRate = 0.1f;
-
+    
     /// <summary>
     /// Método para que cada patrón utilice su propia lógica matemática.
     /// </summary>

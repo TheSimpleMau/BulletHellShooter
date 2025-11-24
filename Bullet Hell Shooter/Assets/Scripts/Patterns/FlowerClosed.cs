@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Flower S-Curve", menuName = "Boss/Patterns/FlowerClosed")]
-public class Flower_S_Curve : AttackPattern
+public class FlowerClosed : AttackPattern
 {
     [Header("Configuración de la Flor Cerrada")]
     public int numberOfStreams = 5;
@@ -13,18 +13,12 @@ public class Flower_S_Curve : AttackPattern
     public bool shootInvertedPair = true;
 
     [Header("Corrección Visual")]
-    [Tooltip("Mueve el inicio de la onda para que no empiece recta. Prueba con valores como 1.5 o 4.")]
-    public float startPhaseShift = 1.5f; // Valor por defecto que suele funcionar bien
+    public float startPhaseShift = 1.5f;
 
     public override void PerformAttack(BossWeapon weapon)
     {
         float streamAngleStep = 360f / numberOfStreams;
-
-        // --- CORRECCIÓN AQUÍ ---
-        // Sumamos 'startPhaseShift' dentro del Seno.
-        // Esto engaña a la matemática haciéndole creer que ya ha pasado tiempo.
         float timeCalculation = (Time.time * sCurveFrequency) + startPhaseShift;
-        
         float globalOscillation = Mathf.Sin(timeCalculation) * sCurveAmplitude;
 
         for (int i = 0; i < numberOfStreams; i++)
@@ -35,7 +29,7 @@ public class Flower_S_Curve : AttackPattern
             float finalAngleA = baseStreamAngle + globalOscillation;
             FireBullet(weapon, finalAngleA);
 
-            // Chorro B (Invertido)
+            // Chorro B
             if (shootInvertedPair)
             {
                 float finalAngleB = baseStreamAngle - globalOscillation;
@@ -48,9 +42,9 @@ public class Flower_S_Curve : AttackPattern
 
     void FireBullet(BossWeapon weapon, float angleInDegrees)
     {
-        float radians = angleInDegrees * Mathf.Deg2Rad;
-        Vector2 direction = new Vector2(Mathf.Cos(radians), Mathf.Sin(radians));
+        Vector2 direction = Quaternion.Euler(0, 0, angleInDegrees) * Vector3.right;
         GameObject bullet = Instantiate(weapon.projectilePrefab, weapon.firePoint.position, Quaternion.identity);
-        bullet.GetComponent<EnemyProjectile>().Initialize(direction);
+        EnemyProjectile projectile = bullet.GetComponent<EnemyProjectile>();
+        projectile.Initialize(direction);
     }
 }

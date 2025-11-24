@@ -1,19 +1,19 @@
 using UnityEngine;
 using System;
 
-/// <summary>
-/// Gestor centralizado para el Tiempo y los Límites del escenario.
-/// Evita que las balas tengan que calcular el tamaño de la cámara individualmente.
-/// </summary>
 public class StageManager : MonoBehaviour
 {
     public static StageManager Instance { get; private set; }
 
-    [Header("Límites del Escenario (Calculados Automáticamente)")]
-    public float MinX;
-    public float MaxX;
-    public float MinY;
-    public float MaxY;
+    // --- CONTADORES ---
+    public int EnemyBulletCount { get; private set; } = 0;
+    public int PlayerBulletCount { get; private set; } = 0;
+
+    public event Action<int> OnEnemyBulletCountChanged;
+    public event Action<int> OnPlayerBulletCountChanged;
+
+    [Header("Límites del Escenario")]
+    public float MinX, MaxX, MinY, MaxY;
 
     // --- Sistema de Tiempo ---
     public static Action OnMinuteChanged;
@@ -28,32 +28,42 @@ public class StageManager : MonoBehaviour
 
     void Awake()
     {
-        // Singleton: Asegura que solo haya un StageManager
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
-
+        
         mainCamera = Camera.main;
-        CalculateStageBounds();
+        // BORRA O COMENTA LA LÍNEA DE ABAJO EN AWAKE
+        // CalculateStageBounds(); 
     }
 
     void Update()
     {
         HandleTime();
+        // AGREGA ESTO AQUÍ: Calculamos los límites en cada frame
+        CalculateStageBounds(); 
     }
 
-    /// <summary>
-    /// Calcula los bordes de la pantalla en coordenadas del mundo.
-    /// Se debe llamar si la cámara se mueve o cambia de tamaño.
-    /// </summary>
     public void CalculateStageBounds()
     {
-        float height = mainCamera.orthographicSize; // Altura del centro al borde
-        float width = height * mainCamera.aspect;   // Ancho calculado por el aspecto
+        if (mainCamera == null) return;
+
+        float height = mainCamera.orthographicSize;
+        float width = height * mainCamera.aspect;
 
         MinY = mainCamera.transform.position.y - height;
         MaxY = mainCamera.transform.position.y + height;
         MinX = mainCamera.transform.position.x - width;
         MaxX = mainCamera.transform.position.x + width;
+    }
+
+    // --- GIZMOS PARA VER LOS LÍMITES EN EL EDITOR ---
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        // Dibuja un cuadrado representando los límites
+        Vector3 center = new Vector3((MinX + MaxX) / 2, (MinY + MaxY) / 2, 0);
+        Vector3 size = new Vector3(MaxX - MinX, MaxY - MinY, 1);
+        Gizmos.DrawWireCube(center, size);
     }
 
     private void HandleTime()
@@ -63,7 +73,6 @@ public class StageManager : MonoBehaviour
         {
             Minute++;
             OnMinuteChanged?.Invoke();
-            
             if (Minute >= 60)
             {
                 Hour++;
@@ -72,5 +81,32 @@ public class StageManager : MonoBehaviour
             }
             timer = minuteToRealTime;
         }
+    }
+
+    // --- MÉTODOS DE REGISTRO ---
+    public void RegisterEnemyBullet()
+    {
+        EnemyBulletCount++;
+        OnEnemyBulletCountChanged?.Invoke(EnemyBulletCount);
+    }
+
+    public void UnregisterEnemyBullet()
+    {
+        EnemyBulletCount--;
+        if (EnemyBulletCount < 0) EnemyBulletCount = 0;
+        OnEnemyBulletCountChanged?.Invoke(EnemyBulletCount);
+    }
+
+    public void RegisterPlayerBullet()
+    {
+        PlayerBulletCount++;
+        OnPlayerBulletCountChanged?.Invoke(PlayerBulletCount);
+    }
+
+    public void UnregisterPlayerBullet()
+    {
+        PlayerBulletCount--;
+        if (PlayerBulletCount < 0) PlayerBulletCount = 0;
+        OnPlayerBulletCountChanged?.Invoke(PlayerBulletCount);
     }
 }
