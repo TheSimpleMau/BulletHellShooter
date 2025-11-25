@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI; // Necesario para trabajar con Sliders
 
 public class UIManager : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI fpsText;           // Nuevo texto para FPS
     public TextMeshProUGUI playerHealthText;
     public TextMeshProUGUI bossHealthText;
+
+    [Header("Barras de Vida")]
+    public Slider playerHealthSlider;
+    public Slider bossHealthSlider;
     private float fpsPollingTime = 1f;
     private float fpsTime;
     private int frameCount;
@@ -88,28 +93,27 @@ public class UIManager : MonoBehaviour
         if(playerCounterText) playerCounterText.text = "Balas del jugador: " + count;
     }
 
-    public void UpdatePlayerHealth(int health)
+    /// <summary>
+    /// Actualiza la barra de vida del jugador.
+    /// </summary>
+    /// <param name="currentHealth">Vida actual</param>
+    /// <param name="maxHealth">Vida máxima</param>
+    public void UpdatePlayerHealth(int currentHealth, int maxHealth)
     {
-        if (playerHealthText != null && health > 0)
+        if (playerHealthSlider != null)
         {
-            playerHealthText.text = "Vida jugador: " + health;
-        }
-        else
-        {
-            playerHealthText.text = "Te haz quedado sin vida\n¡Game over!";
+            playerHealthSlider.value = (float)currentHealth / maxHealth;
         }
     }
 
-    public void UpdateBossHealth(int health)
+    /// <summary>
+    /// Actualiza la barra de vida del jefe.
+    /// </summary>
+    public void UpdateBossHealth(int currentHealth, int maxHealth)
     {
-        if (bossHealthText != null && health > 0)
+        if (bossHealthSlider != null)
         {
-            bossHealthText.text = "Vida jefe: " + health;
-        }
-        else
-        {
-            
-            bossHealthText.text = "¡Jefe derrotado!";
+            bossHealthSlider.value = (float)currentHealth / maxHealth;
         }
     }
 }

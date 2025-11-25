@@ -7,29 +7,36 @@ public class BossHealth : MonoBehaviour
     public int maxHealth = 250;
     private int currentHealth;
     private SpriteRenderer spriteRenderer;
+    
+    [Header("Audio")]
+    public AudioClip damageSound; 
+    private AudioSource audioSource;
 
     void Awake()
     {
         // Obtenemos el componente para poder cambiarle el color
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null) audioSource = gameObject.AddComponent<AudioSource>();
     }
 
     void Start()
     {
         currentHealth = maxHealth;
         if (UIManager.Instance != null) 
-            UIManager.Instance.UpdateBossHealth(currentHealth);
+            UIManager.Instance.UpdateBossHealth(currentHealth, maxHealth);
     }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+
+        if (damageSound != null && audioSource != null) audioSource.PlayOneShot(damageSound);
         
         // Opcional: Feedback visual simple (Color rojo momentáneo)
         StartCoroutine(FlashRed()); 
         
-        if (UIManager.Instance != null) 
-            UIManager.Instance.UpdateBossHealth(currentHealth);
+        if (UIManager.Instance != null) UIManager.Instance.UpdateBossHealth(currentHealth, maxHealth);
 
         if (currentHealth <= 0)
         {
@@ -39,13 +46,13 @@ public class BossHealth : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("¡VICTORIA! El Boss ha sido derrotado.");
-        // Detener el BossWeapon para que no siga disparando
         GetComponent<BossWeapon>().enabled = false;
         
-        // Efectos de explosión aquí...
+        if (StageManager.Instance != null) StageManager.Instance.PlayVictoryMusic();
+
         Destroy(gameObject, 0.5f);
     }
+
 
     IEnumerator FlashRed()
     {

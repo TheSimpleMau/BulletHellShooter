@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Configuración de Entrada")]
     // Aseguramos que el valor por defecto sea el que pides
-    public Vector2 entryTargetPosition = new Vector2(-6.2f, 2.3f); 
+    public Vector2 entryTargetPosition = new Vector2(-6.2f, 3f); 
     public float entrySpeed = 5f; 
     private bool isControllable = false; 
 

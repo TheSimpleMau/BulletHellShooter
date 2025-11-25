@@ -7,57 +7,46 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 50;
     private int currentHealth;
 
+    [Header("Audio")]
+    public AudioClip damageSound;
+    private AudioSource audioSource;
+
     [Header("Invulnerabilidad")]
-    public float iframeDuration = 2f; // Tiempo de inmunidad
-    public float blinkInterval = 0.1f; // Velocidad del parpadeo
+    public float iframeDuration = 1f;
+    public float blinkInterval = 0.1f;
     private bool isInvulnerable = false;
 
     private SpriteRenderer spriteRenderer;
-    private BoxCollider2D myCollider; // Para desactivar colisiones si quieres, o solo lógica
+    private BoxCollider2D myCollider;
 
     void Awake()
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         myCollider = GetComponent<BoxCollider2D>();
         currentHealth = maxHealth;
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
         if (UIManager.Instance != null) 
-            UIManager.Instance.UpdatePlayerHealth(currentHealth);
+            UIManager.Instance.UpdatePlayerHealth(currentHealth, maxHealth);
     }
 
     public void TakeDamage(int damage)
     {
         if (isInvulnerable) return;
-
         currentHealth -= damage;
-        Debug.Log($"Vida actual: {currentHealth}"); // Debug 1
 
-        // --- BLOQUE DE DIAGNÓSTICO ---
-        if (UIManager.Instance != null)
-        {
-            Debug.Log("✅ Encontré al UIManager. Llamando a actualizar vida...");
-            UIManager.Instance.UpdatePlayerHealth(currentHealth);
-        }
-        else
-        {
-            // SI SALE ESTE MENSAJE ROJO, EL PROBLEMA ES QUE EL MANAGER NO EXISTE
-            Debug.LogError("❌ ERROR CRÍTICO: UIManager.Instance es NULL. El script no encuentra el Manager en la escena.");
-        }
-        // -----------------------------
+        if (damageSound != null && audioSource != null)
+            audioSource.PlayOneShot(damageSound);
 
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
-        else
-        {
-            StartCoroutine(InvulnerabilityRoutine());
-        }
+        if (UIManager.Instance != null) UIManager.Instance.UpdatePlayerHealth(currentHealth, maxHealth);
+
+        if (currentHealth <= 0) Die();
+        else StartCoroutine(InvulnerabilityRoutine());
     }
 
     void Die()
     {
-        Debug.Log("¡GAME OVER!");
-        // Aquí podrías llamar a StageManager para pausar el juego o mostrar pantalla de derrota
         Destroy(gameObject); 
     }
 
@@ -69,7 +58,6 @@ public class PlayerHealth : MonoBehaviour
         float timer = 0;
         while (timer < iframeDuration)
         {
-            // PROTECCIÓN: Solo intentamos cambiar color si el spriteRenderer existe
             if (spriteRenderer != null) 
             {
                 Color c = spriteRenderer.color;
@@ -81,7 +69,6 @@ public class PlayerHealth : MonoBehaviour
             timer += blinkInterval;
         }
 
-        // Restauramos al final con protección
         if (spriteRenderer != null)
         {
             Color finalColor = spriteRenderer.color;

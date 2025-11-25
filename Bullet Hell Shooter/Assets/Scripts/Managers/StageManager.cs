@@ -12,6 +12,11 @@ public class StageManager : MonoBehaviour
     public event Action<int> OnEnemyBulletCountChanged;
     public event Action<int> OnPlayerBulletCountChanged;
 
+    [Header("Música")]
+    public AudioSource musicSource;
+    public AudioClip gameplayMusic;
+    public AudioClip victoryMusic;
+
     [Header("Límites del Escenario")]
     public float MinX, MaxX, MinY, MaxY;
 
@@ -30,10 +35,17 @@ public class StageManager : MonoBehaviour
     {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
-        
         mainCamera = Camera.main;
-        // BORRA O COMENTA LA LÍNEA DE ABAJO EN AWAKE
-        // CalculateStageBounds(); 
+
+        if (musicSource != null && gameplayMusic != null)
+        {
+            musicSource.clip = gameplayMusic;
+            musicSource.loop = true;
+            musicSource.Play();
+        }
+        if (victoryMusic == null) {
+            victoryMusic = Resources.Load<AudioClip>("Audio/victoryMusicName");
+        }
     }
 
     void Update()
@@ -55,8 +67,6 @@ public class StageManager : MonoBehaviour
         MinX = mainCamera.transform.position.x - width;
         MaxX = mainCamera.transform.position.x + width;
     }
-
-    // --- GIZMOS PARA VER LOS LÍMITES EN EL EDITOR ---
     void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
@@ -109,4 +119,20 @@ public class StageManager : MonoBehaviour
         if (PlayerBulletCount < 0) PlayerBulletCount = 0;
         OnPlayerBulletCountChanged?.Invoke(PlayerBulletCount);
     }
+
+    public void PlayVictoryMusic()
+{
+    if (musicSource == null)
+    {
+        musicSource = GetComponent<AudioSource>();
+    }
+
+    if (musicSource != null && victoryMusic != null)
+    {
+        musicSource.Stop(); // opcional: detiene la música actual
+        musicSource.PlayOneShot(victoryMusic); // reproducir jingle de victoria
+    }
+}
+
+
 }
