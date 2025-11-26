@@ -25,3 +25,6 @@ Gradle/
 .gradle/
 .DS_Store
 *.mp4
+*.pages
+*.pdf
+

@@ -37,7 +37,7 @@ https://drive.google.com/file/d/1tg9TgB1qCMUe_ZsnhtdXUrN62-V-MoMP/view?usp=shari
 - **UIManager:** actualiza barras de vida del jugador, jefe y mensajes de victoria/derrota.
 - **AudioManager:** reproduce efectos y música, mientras `StageManager` coordina la transición entre gameplay, jefe y final.
 
-# 📂 Estructura del proyecto (resumen)
+# 📂 Estructura del proyecto
 - `Scripts/Patterns` — Lógica de patrones de ataque y movimiento.  
 - `Scripts/Managers` — WaveManager, StageManager, UIManager, AudioManager.  
 - `Scripts/Characters` — Boss, Minions, Player.  
