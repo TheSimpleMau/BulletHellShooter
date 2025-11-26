@@ -8,7 +8,7 @@ Este es un proyecto escolar enfocado en realizar un nivel de videojuego de la ca
 Estaré llendo al nivel *lunático* para evaluar (espero les guste :D).
 
 ## 🎮 Video de demostración  
-https://drive.google.com/file/d/1tg9TgB1qCMUe_ZsnhtdXUrN62-V-MoMP/view?usp=sharing
+https://drive.google.com/file/d/1Ztc6KeudV4ixoXeeQHDp0DFrorIr2QZF/view?usp=sharing
 
 # Dinámicas clave
 
