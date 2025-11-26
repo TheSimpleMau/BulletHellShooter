@@ -1,9 +1,9 @@
 using UnityEngine;
 
+/// <summary>
+/// Controlador simple para la velocidad del scroll del fondo.
+/// </summary>
 public class BackgroundController : MonoBehaviour
 {
-    /// <summary>
-    /// Para controlar la velocidad del fondo.
-    /// </summary>
     public float scrollSpeed = 4f;
 }

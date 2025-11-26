@@ -1,15 +1,17 @@
 using UnityEngine;
 
 /// <summary>
-/// Patrón de Explosión: Dispara múltiples balas en todas direcciones al mismo tiempo.
+/// Patrón que dispara balas en 360 grados simultáneamente.
 /// </summary>
 [CreateAssetMenu(fileName = "New Circle Pattern", menuName = "Boss/Patterns/Circle")]
 public class Circle : AttackPattern
 {
     [Header("Configuración Círculo")]
-    [Tooltip("Cuántas balas saldrán en la explosión")]
     public int bulletCount = 12;
 
+    /// <summary>
+    /// Calcula el ángulo para cada bala y las instancia en círculo.
+    /// </summary>
     public override void PerformAttack(BossWeapon weapon)
     {
         float angleStep = 360f / bulletCount;

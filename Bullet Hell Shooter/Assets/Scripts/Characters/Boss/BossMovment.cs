@@ -2,6 +2,9 @@ using UnityEngine;
 using System; 
 using System.Collections; 
 
+/// <summary>
+/// Movimiento de entrada en ZigZag y comportamientos de combate (random, circle, static).
+/// </summary>
 public class BossMovement : MonoBehaviour
 {
     // Evento para avisar que la entrada terminó
@@ -59,7 +62,9 @@ public class BossMovement : MonoBehaviour
         }
     }
 
-    // --- LÓGICA DE ENTRADA (INTACTA) ---
+    /// <summary>
+    /// Mueve al boss desde la entrada hacia la posición objetivo con una oscilación decreciente.
+    /// </summary>
     void MoveSmoothEntry()
     {
         ghostPosition = Vector3.MoveTowards(ghostPosition, targetPosition, entrySpeed * Time.deltaTime);
@@ -81,7 +86,6 @@ public class BossMovement : MonoBehaviour
         }
     }
 
-    // --- LÓGICA DE MOVIMIENTO DE COMBATE ---
     void HandleCombatBehavior()
     {
         // MoveTowards asegura transiciones suaves desde cualquier punto
@@ -106,34 +110,32 @@ public class BossMovement : MonoBehaviour
     void MoveRandomlyFluently()
     {
         transform.position = Vector3.MoveTowards(transform.position, randomTarget, combatMoveSpeed * Time.deltaTime);
-
-        // Si llega, elige otro AL INSTANTE
         if (Vector2.Distance(transform.position, randomTarget) < 0.1f)
         {
             PickNewRandomPosition();
         }
     }
 
+    /// <summary>
+    /// Mueve en círculo suavemente usando MoveTowards a la posición objetivo calculada por un ángulo.
+    /// </summary>
     void MoveInCircle()
     {
-        // 1. Calculamos dónde DEBERÍA estar en el círculo según el ángulo actual
-        circleAngle += combatMoveSpeed * Time.deltaTime; // Velocidad angular
+        circleAngle += combatMoveSpeed * Time.deltaTime;
         
         float x = Mathf.Cos(circleAngle) * circleRadius;
         float y = Mathf.Sin(circleAngle) * circleRadius;
         Vector3 targetCirclePos = new Vector3(x, y, transform.position.z);
-
-        // 2. Nos movemos hacia ese punto. 
-        // Esto crea una transición suave: si está en el centro, saldrá en espiral hacia el borde.
         transform.position = Vector3.MoveTowards(transform.position, targetCirclePos, combatMoveSpeed * Time.deltaTime);
     }
 
-    // --- CICLO DE TIEMPOS (10s Ataque / 2s Descanso) ---
+    /// <summary>
+    /// Loop de combate que alterna entre estados y espera tiempos de ataque/descanso.
+    /// </summary>
     IEnumerator CombatLoop()
     {
         while (true)
         {
-            // 1. ELEGIR ATAQUE (Aleatorio)
             int randomPick = UnityEngine.Random.Range(1, 4);
             if (randomPick == 1) currentState = BossState.Static;
             else if (randomPick == 2) 
@@ -144,15 +146,12 @@ public class BossMovement : MonoBehaviour
             else if (randomPick == 3) 
             {
                 currentState = BossState.Circle;
-                // Calculamos el ángulo actual respecto al centro para que empiece a girar desde donde esté
                 circleAngle = Mathf.Atan2(transform.position.y, transform.position.x);
             }
 
-            // MANTENER ATAQUE (10 Segundos)
             yield return new WaitForSeconds(attackDuration);
 
-            // 2. DESCANSO (2 Segundos)
-            currentState = BossState.Resting; // Esto activará el movimiento hacia (0,0)
+            currentState = BossState.Resting;
             yield return new WaitForSeconds(restDuration);
         }
     }

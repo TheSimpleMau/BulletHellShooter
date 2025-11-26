@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/// <summary>
+/// Movimiento del jugador: entrada inicial hacia un punto y control por InputSystem con modo de precisión.
+/// </summary>
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Configuración de Entrada")]
-    // Aseguramos que el valor por defecto sea el que pides
     public Vector2 entryTargetPosition = new Vector2(-6.2f, 3f); 
     public float entrySpeed = 5f; 
     private bool isControllable = false; 
@@ -13,10 +15,12 @@ public class PlayerMovement : MonoBehaviour
     public float normalSpeed = 8f;
     public float precisionSpeed = 4f;
 
-    // Referencias internas
     private Rigidbody2D rb;
     private Vector2 rawInput;
     private bool isSlowMode = false;
+
+    // Evento que indica que el jugador ya está listo para disparar.
+    public event System.Action OnPlayerReady;
 
     void Awake()
     {
@@ -33,9 +37,6 @@ public class PlayerMovement : MonoBehaviour
             playerInput.defaultActionMap = "Player";
             playerInput.ActivateInput();
         }
-
-        // TRUCO: Si la nave ya está muy cerca del destino al iniciar, no se moverá.
-        // Asegúrate en la escena de colocar la nave lejos (ej: 0, -10).
     }
 
     public void OnMoveInput(InputAction.CallbackContext context)
@@ -66,16 +67,13 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleEntryAnimation()
     {
-        // Movemos la nave hacia la posición objetivo exacta
         Vector2 newPos = Vector2.MoveTowards(rb.position, entryTargetPosition, entrySpeed * Time.fixedDeltaTime);
         rb.MovePosition(newPos);
-
-        // Aumenté ligeramente la tolerancia a 0.05f para asegurar que detecte la llegada
         if (Vector2.Distance(rb.position, entryTargetPosition) < 0.05f)
         {
             isControllable = true;
-            // Forzamos la posición exacta final para evitar decimales sueltos
             rb.position = entryTargetPosition;
+            OnPlayerReady?.Invoke();
         }
     }
 

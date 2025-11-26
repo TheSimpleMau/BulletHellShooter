@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/// <summary>
+/// Lógica de disparo del jugador: modos auto/manual, puntos de disparo y temporizador.
+/// </summary>
 public class PlayerShooting : MonoBehaviour
 {
     [Header("Referencias")]
@@ -19,27 +22,37 @@ public class PlayerShooting : MonoBehaviour
 
     void Start()
     {
-        // Buscamos al jefe en la escena
+        canShoot = false;
+        PlayerMovement playerMovement = GetComponent<PlayerMovement>();
+        if (playerMovement != null)
+        {
+            playerMovement.OnPlayerReady += InitializeShootingLogic;
+        }
+        else
+        {
+            InitializeShootingLogic();
+        }
+    }
+
+    /// <summary>
+    /// Inicializa la lógica de disparo cuando el jugador y (opcionalmente) el boss están listos.
+    /// </summary>
+    void InitializeShootingLogic()
+    {
         BossMovement boss = Object.FindFirstObjectByType<BossMovement>();
-        
+
         if (boss != null)
         {
-            // Si existe el jefe, nos suscribimos a su evento.
-            // Cuando él llegue a su sitio, ejecutará 'EnableShooting'
             boss.OnPositionReached += EnableShooting;
         }
         else
         {
-            // Si NO encuentras al jefe (ej: estás probando solo la nave en una escena vacía),
-            // activamos el disparo inmediatamente para que puedas jugar.
-            canShoot = true;
+            EnableShooting();
         }
     }
 
-    // Evento FIRE (Espacio)
     public void OnFireInput(InputAction.CallbackContext context)
     {
-        // En modo manual, escuchamos si aprietas el botón
         if (!isAutoFire)
         {
             if (context.performed) isHoldingFireButton = true;
@@ -47,7 +60,6 @@ public class PlayerShooting : MonoBehaviour
         }
     }
 
-    // Evento SWITCH MODE (Tecla M)
     public void OnSwitchModeInput(InputAction.CallbackContext context)
     {
         if (context.performed)
@@ -65,22 +77,16 @@ public class PlayerShooting : MonoBehaviour
     void Update()
     {
         shootTimer -= Time.deltaTime;
-
-        // Lógica de Modos
         bool shouldShoot = false;
 
         if (isAutoFire)
         {
-            // MODO INFINITO: Siempre dispara, ignoramos el input
             shouldShoot = true;
         }
         else
         {
-            // MODO MANUAL: Dispara solo si mantenemos el botón
             shouldShoot = isHoldingFireButton;
         }
-
-        // Ejecución del disparo
         if (shouldShoot && shootTimer <= 0)
         {
             AttemptShoot();
@@ -89,6 +95,9 @@ public class PlayerShooting : MonoBehaviour
         if (!canShoot) return; 
     }
 
+    /// <summary>
+    /// Intenta disparar desde todos los firePoints si está permitido.
+    /// </summary>
     void AttemptShoot()
     {
         if (!canShoot) return; 
@@ -96,7 +105,6 @@ public class PlayerShooting : MonoBehaviour
 
         foreach (Transform point in firePoints)
         {
-            // Rotamos 90 grados en el eje Z para que apunte hacia arriba
             if (point != null) Instantiate(bulletPrefab, point.position, Quaternion.Euler(0, 0, 90));
         }
     }

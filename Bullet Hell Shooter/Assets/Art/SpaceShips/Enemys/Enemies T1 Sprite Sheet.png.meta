@@ -1,0 +1,1703 @@
+fileFormatVersion: 2
+guid: 802976acf92fb40eda9818cbc9e3fc9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5415376561067491165
+    second: Enemies T1 Sprite Sheet_0
+  - first:
+      213: -3937861334796678722
+    second: Enemies T1 Sprite Sheet_1
+  - first:
+      213: -1929776668813272309
+    second: Enemies T1 Sprite Sheet_2
+  - first:
+      213: -403899358144807997
+    second: Enemies T1 Sprite Sheet_3
+  - first:
+      213: -5490160156383265626
+    second: Enemies T1 Sprite Sheet_4
+  - first:
+      213: 2137011585305828129
+    second: Enemies T1 Sprite Sheet_5
+  - first:
+      213: -4005429122434093564
+    second: Enemies T1 Sprite Sheet_6
+  - first:
+      213: 5964506352031177847
+    second: Enemies T1 Sprite Sheet_7
+  - first:
+      213: 1387219757210023580
+    second: Enemies T1 Sprite Sheet_8
+  - first:
+      213: 307715572375507590
+    second: Enemies T1 Sprite Sheet_9
+  - first:
+      213: 5701290330403616970
+    second: Enemies T1 Sprite Sheet_10
+  - first:
+      213: 3771064178038644660
+    second: Enemies T1 Sprite Sheet_11
+  - first:
+      213: -2907675454682050657
+    second: Enemies T1 Sprite Sheet_12
+  - first:
+      213: 8218336473833605864
+    second: Enemies T1 Sprite Sheet_13
+  - first:
+      213: -8656364610396986071
+    second: Enemies T1 Sprite Sheet_14
+  - first:
+      213: -1978367466918847875
+    second: Enemies T1 Sprite Sheet_15
+  - first:
+      213: 1311455725512800965
+    second: Enemies T1 Sprite Sheet_16
+  - first:
+      213: 8569713537015448779
+    second: Enemies T1 Sprite Sheet_17
+  - first:
+      213: -7222327197115887301
+    second: Enemies T1 Sprite Sheet_18
+  - first:
+      213: 293279302056652616
+    second: Enemies T1 Sprite Sheet_19
+  - first:
+      213: 3166476953490142390
+    second: Enemies T1 Sprite Sheet_20
+  - first:
+      213: -4355271108613919181
+    second: Enemies T1 Sprite Sheet_21
+  - first:
+      213: 3735428217372739702
+    second: Enemies T1 Sprite Sheet_22
+  - first:
+      213: 4189785434777297200
+    second: Enemies T1 Sprite Sheet_23
+  - first:
+      213: 8154238002528410175
+    second: Enemies T1 Sprite Sheet_24
+  - first:
+      213: -4059316630267629978
+    second: Enemies T1 Sprite Sheet_25
+  - first:
+      213: 365403849304172257
+    second: Enemies T1 Sprite Sheet_26
+  - first:
+      213: -5330298563623674336
+    second: Enemies T1 Sprite Sheet_27
+  - first:
+      213: -4287391654247647606
+    second: Enemies T1 Sprite Sheet_28
+  - first:
+      213: 2713071828837759509
+    second: Enemies T1 Sprite Sheet_29
+  - first:
+      213: -2236060772092776313
+    second: Enemies T1 Sprite Sheet_30
+  - first:
+      213: -7198107802617207937
+    second: Enemies T1 Sprite Sheet_31
+  - first:
+      213: -8364135279761087742
+    second: Enemies T1 Sprite Sheet_32
+  - first:
+      213: 8222763243461162337
+    second: Enemies T1 Sprite Sheet_33
+  - first:
+      213: -5477028500321136531
+    second: Enemies T1 Sprite Sheet_34
+  - first:
+      213: 5917491994106046019
+    second: Enemies T1 Sprite Sheet_35
+  - first:
+      213: -7980915370302338241
+    second: Enemies T1 Sprite Sheet_36
+  - first:
+      213: -635843135021521894
+    second: Enemies T1 Sprite Sheet_37
+  - first:
+      213: 7751151349780914327
+    second: Enemies T1 Sprite Sheet_38
+  - first:
+      213: -7967170747237131255
+    second: Enemies T1 Sprite Sheet_39
+  - first:
+      213: 4190640147777008988
+    second: Enemies T1 Sprite Sheet_40
+  - first:
+      213: 8863223380336480895
+    second: Enemies T1 Sprite Sheet_41
+  - first:
+      213: 1351779689168763073
+    second: Enemies T1 Sprite Sheet_42
+  - first:
+      213: 3782647765859702689
+    second: Enemies T1 Sprite Sheet_43
+  - first:
+      213: -8767404212054335924
+    second: Enemies T1 Sprite Sheet_44
+  - first:
+      213: -2453817878093736603
+    second: Enemies T1 Sprite Sheet_45
+  - first:
+      213: -8957749185421072921
+    second: Enemies T1 Sprite Sheet_46
+  - first:
+      213: 4805778820117437667
+    second: Enemies T1 Sprite Sheet_47
+  - first:
+      213: -7766256892594450270
+    second: Enemies T1 Sprite Sheet_48
+  - first:
+      213: -1487678276762796666
+    second: Enemies T1 Sprite Sheet_49
+  - first:
+      213: -4648709142846978712
+    second: Enemies T1 Sprite Sheet_50
+  - first:
+      213: 6577186483052791668
+    second: Enemies T1 Sprite Sheet_51
+  - first:
+      213: -6125078360651507653
+    second: Enemies T1 Sprite Sheet_52
+  - first:
+      213: 3345859072396613893
+    second: Enemies T1 Sprite Sheet_53
+  - first:
+      213: -7696051118561351936
+    second: Enemies T1 Sprite Sheet_54
+  - first:
+      213: -2744885506601219977
+    second: Enemies T1 Sprite Sheet_55
+  - first:
+      213: -6429124531563810371
+    second: Enemies T1 Sprite Sheet_56
+  - first:
+      213: 6300462910580045444
+    second: Enemies T1 Sprite Sheet_57
+  - first:
+      213: 5913713392185530011
+    second: Enemies T1 Sprite Sheet_58
+  - first:
+      213: 8695178038245822430
+    second: Enemies T1 Sprite Sheet_59
+  - first:
+      213: 8348006767289270768
+    second: Enemies T1 Sprite Sheet_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 457
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f77675a48472b40800000000000000
+      internalID: 5415376561067491165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 457
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9c2bccaf7e959c0800000000000000
+      internalID: -3937861334796678722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 457
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b5c87185e0835e0800000000000000
+      internalID: -1929776668813272309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 457
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb35c87caf056af0800000000000000
+      internalID: -403899358144807997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 429
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acb5c60d680fc3b0800000000000000
+      internalID: -5490160156383265626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 429
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b5c07e6b038ad10800000000000000
+      internalID: 2137011585305828129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 429
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40eaf405f6bd968c0800000000000000
+      internalID: -4005429122434093564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 429
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c11650dee26c250800000000000000
+      internalID: 5964506352031177847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 391
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9638e5f405604310800000000000000
+      internalID: 1387219757210023580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 391
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6825c47cea9354400800000000000000
+      internalID: 307715572375507590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 391
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8b319495d0f1f40800000000000000
+      internalID: 5701290330403616970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 391
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf9135d3e2855430800000000000000
+      internalID: 3771064178038644660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 359
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fcd89549cd5a7d0800000000000000
+      internalID: -2907675454682050657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 359
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea0d77fa756d0270800000000000000
+      internalID: 8218336473833605864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 359
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925660f004a6ed780800000000000000
+      internalID: -8656364610396986071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 359
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7adc1b454d6b84e0800000000000000
+      internalID: -1978367466918847875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 359
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cab7d1b80a333210800000000000000
+      internalID: 1311455725512800965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 359
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc489a0ce0dbde670800000000000000
+      internalID: 8569713537015448779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 333
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31d3440ea325cb90800000000000000
+      internalID: -7222327197115887301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 333
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84faf0ba8ffe11400800000000000000
+      internalID: 293279302056652616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 333
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4bd32330691fb20800000000000000
+      internalID: 3166476953490142390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 333
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33eab8e7008fe83c0800000000000000
+      internalID: -4355271108613919181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 332
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678097c2c28e6d330800000000000000
+      internalID: 3735428217372739702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 332
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031a10d87ab152a30800000000000000
+      internalID: 4189785434777297200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 297
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a52b2a24ca92170800000000000000
+      internalID: 8154238002528410175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 297
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66eef0e28096aa7c0800000000000000
+      internalID: -4059316630267629978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 297
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6e55d6ddc221500800000000000000
+      internalID: 365403849304172257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 297
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e9f6092b9f606b0800000000000000
+      internalID: -5330298563623674336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 264
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86389b81002084c0800000000000000
+      internalID: -4287391654247647606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 263
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a7eff2474c6a520800000000000000
+      internalID: 2713071828837759509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 231
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780793f239ae7f0e0800000000000000
+      internalID: -2236060772092776313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 231
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73a80a371f2b1c90800000000000000
+      internalID: -7198107802617207937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 231
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2032784374f9ceb80800000000000000
+      internalID: -8364135279761087742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 231
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16534a69a9f1d1270800000000000000
+      internalID: 8222763243461162337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 171
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d601ba5f89fadf3b0800000000000000
+      internalID: -5477028500321136531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 171
+        width: 18
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346a8edcd972f1250800000000000000
+      internalID: 5917491994106046019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 171
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b8ca261c71e3190800000000000000
+      internalID: -7980915370302338241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 199
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14eb2c99080d27f0800000000000000
+      internalID: -635843135021521894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 199
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7902bf3d51f919b60800000000000000
+      internalID: 7751151349780914327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 199
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c1c02da6cee6190800000000000000
+      internalID: -7967170747237131255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 136
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c553dbde205282a30800000000000000
+      internalID: 4190640147777008988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 136
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7294ed74be700b70800000000000000
+      internalID: 8863223380336480895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 136
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8fd7b177c72c210800000000000000
+      internalID: 1351779689168763073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 136
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a71e7a0a1aae7430800000000000000
+      internalID: 3782647765859702689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 77
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4edc32225ce35680800000000000000
+      internalID: -8767404212054335924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 104
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56558b804a942fdd0800000000000000
+      internalID: -2453817878093736603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 104
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5aee7739eafa380800000000000000
+      internalID: -8957749185421072921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 104
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec1232ff5e81b240800000000000000
+      internalID: 4805778820117437667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 104
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a09a7ae086b83490800000000000000
+      internalID: -7766256892594450270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 104
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68dfc754d74ba5be0800000000000000
+      internalID: -1487678276762796666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 76
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865ce7c1aa77c7fb0800000000000000
+      internalID: -4648709142846978712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 76
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477ccd7424cd64b50800000000000000
+      internalID: 6577186483052791668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 76
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b385febdea95ffaa0800000000000000
+      internalID: -6125078360651507653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 38
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509d7b66911ee6e20800000000000000
+      internalID: 3345859072396613893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 38
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00727e87842223590800000000000000
+      internalID: -7696051118561351936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 38
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7788aedbc2538e9d0800000000000000
+      internalID: -2744885506601219977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 38
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1b36f2d4927c6a0800000000000000
+      internalID: -6429124531563810371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486b5a9c2adbf6750800000000000000
+      internalID: 6300462910580045444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 12
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9650bc7ffab11250800000000000000
+      internalID: 5913713392185530011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 12
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf8b645b5a7ba870800000000000000
+      internalID: 8695178038245822430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies T1 Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 12
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f185dadce31ad370800000000000000
+      internalID: 8348006767289270768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Enemies T1 Sprite Sheet_0: 5415376561067491165
+      Enemies T1 Sprite Sheet_1: -3937861334796678722
+      Enemies T1 Sprite Sheet_10: 5701290330403616970
+      Enemies T1 Sprite Sheet_11: 3771064178038644660
+      Enemies T1 Sprite Sheet_12: -2907675454682050657
+      Enemies T1 Sprite Sheet_13: 8218336473833605864
+      Enemies T1 Sprite Sheet_14: -8656364610396986071
+      Enemies T1 Sprite Sheet_15: -1978367466918847875
+      Enemies T1 Sprite Sheet_16: 1311455725512800965
+      Enemies T1 Sprite Sheet_17: 8569713537015448779
+      Enemies T1 Sprite Sheet_18: -7222327197115887301
+      Enemies T1 Sprite Sheet_19: 293279302056652616
+      Enemies T1 Sprite Sheet_2: -1929776668813272309
+      Enemies T1 Sprite Sheet_20: 3166476953490142390
+      Enemies T1 Sprite Sheet_21: -4355271108613919181
+      Enemies T1 Sprite Sheet_22: 3735428217372739702
+      Enemies T1 Sprite Sheet_23: 4189785434777297200
+      Enemies T1 Sprite Sheet_24: 8154238002528410175
+      Enemies T1 Sprite Sheet_25: -4059316630267629978
+      Enemies T1 Sprite Sheet_26: 365403849304172257
+      Enemies T1 Sprite Sheet_27: -5330298563623674336
+      Enemies T1 Sprite Sheet_28: -4287391654247647606
+      Enemies T1 Sprite Sheet_29: 2713071828837759509
+      Enemies T1 Sprite Sheet_3: -403899358144807997
+      Enemies T1 Sprite Sheet_30: -2236060772092776313
+      Enemies T1 Sprite Sheet_31: -7198107802617207937
+      Enemies T1 Sprite Sheet_32: -8364135279761087742
+      Enemies T1 Sprite Sheet_33: 8222763243461162337
+      Enemies T1 Sprite Sheet_34: -5477028500321136531
+      Enemies T1 Sprite Sheet_35: 5917491994106046019
+      Enemies T1 Sprite Sheet_36: -7980915370302338241
+      Enemies T1 Sprite Sheet_37: -635843135021521894
+      Enemies T1 Sprite Sheet_38: 7751151349780914327
+      Enemies T1 Sprite Sheet_39: -7967170747237131255
+      Enemies T1 Sprite Sheet_4: -5490160156383265626
+      Enemies T1 Sprite Sheet_40: 4190640147777008988
+      Enemies T1 Sprite Sheet_41: 8863223380336480895
+      Enemies T1 Sprite Sheet_42: 1351779689168763073
+      Enemies T1 Sprite Sheet_43: 3782647765859702689
+      Enemies T1 Sprite Sheet_44: -8767404212054335924
+      Enemies T1 Sprite Sheet_45: -2453817878093736603
+      Enemies T1 Sprite Sheet_46: -8957749185421072921
+      Enemies T1 Sprite Sheet_47: 4805778820117437667
+      Enemies T1 Sprite Sheet_48: -7766256892594450270
+      Enemies T1 Sprite Sheet_49: -1487678276762796666
+      Enemies T1 Sprite Sheet_5: 2137011585305828129
+      Enemies T1 Sprite Sheet_50: -4648709142846978712
+      Enemies T1 Sprite Sheet_51: 6577186483052791668
+      Enemies T1 Sprite Sheet_52: -6125078360651507653
+      Enemies T1 Sprite Sheet_53: 3345859072396613893
+      Enemies T1 Sprite Sheet_54: -7696051118561351936
+      Enemies T1 Sprite Sheet_55: -2744885506601219977
+      Enemies T1 Sprite Sheet_56: -6429124531563810371
+      Enemies T1 Sprite Sheet_57: 6300462910580045444
+      Enemies T1 Sprite Sheet_58: 5913713392185530011
+      Enemies T1 Sprite Sheet_59: 8695178038245822430
+      Enemies T1 Sprite Sheet_6: -4005429122434093564
+      Enemies T1 Sprite Sheet_60: 8348006767289270768
+      Enemies T1 Sprite Sheet_7: 5964506352031177847
+      Enemies T1 Sprite Sheet_8: 1387219757210023580
+      Enemies T1 Sprite Sheet_9: 307715572375507590
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

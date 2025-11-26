@@ -9,6 +9,9 @@ public class Flower : AttackPattern
     public float curveSpeed = 2f;
     public float rotationSpeed = 10f;
 
+    /// <summary>
+    /// Patrón floral: dispara haciendo curvas sinusoidales rotatorias.
+    /// </summary>
     public override void PerformAttack(BossWeapon weapon)
     {
         float oscillation = Mathf.Sin(Time.time * curveSpeed) * petalAmplitude;

@@ -1,17 +1,16 @@
 using UnityEngine;
 
+/// <summary>
+/// Scroller que mueve el sprite hacia abajo y lo reposiciona para bucle infinito.
+/// </summary>
 public class BackgroundScroller : MonoBehaviour
 {
-    /// <summary>
-    /// Referencias a componentes y variables para el cálculo de límites.
-    /// </summary>
     private BackgroundController masterController;
     private SpriteRenderer spriteRenderer;
     private float spriteHeight;
 
     /// <summary>
-    /// Inicializa las referencias necesarias (Render, Cámara, Controlador Padre) 
-    /// y calcula la altura real del sprite antes de empezar.
+    /// Mueve el fondo y recoloca cuando sale por abajo.
     /// </summary>
     void Start()
     {

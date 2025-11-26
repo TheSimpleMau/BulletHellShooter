@@ -1,11 +1,12 @@
 using UnityEngine;
 using System;
 
+/// <summary>
+/// Controla el estado global del nivel: límites, música, tiempo y contadores de balas.
+/// </summary>
 public class StageManager : MonoBehaviour
 {
     public static StageManager Instance { get; private set; }
-
-    // --- CONTADORES ---
     public int EnemyBulletCount { get; private set; } = 0;
     public int PlayerBulletCount { get; private set; } = 0;
 
@@ -15,12 +16,13 @@ public class StageManager : MonoBehaviour
     [Header("Música")]
     public AudioSource musicSource;
     public AudioClip gameplayMusic;
+    public AudioClip bossMusic;
     public AudioClip victoryMusic;
+    public AudioClip defeatMusic;
 
     [Header("Límites del Escenario")]
     public float MinX, MaxX, MinY, MaxY;
 
-    // --- Sistema de Tiempo ---
     public static Action OnMinuteChanged;
     public static Action OnHourChanged;
     public int Minute { get; private set; }
@@ -30,29 +32,102 @@ public class StageManager : MonoBehaviour
     private float minuteToRealTime = 0.5f;
     private float timer;
     private Camera mainCamera;
+    private bool isGameOver = false;
 
+    /// <summary>
+    /// Configura el Singleton, la cámara y la música inicial.
+    /// </summary>
     void Awake()
     {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
         mainCamera = Camera.main;
 
+        if (musicSource == null) musicSource = GetComponent<AudioSource>();
+
+        if (musicSource != null) musicSource.ignoreListenerPause = true;
+
+        PlayGameplayMusic();
+    }
+
+    /// <summary>
+    /// Actualiza el temporizador y recalcula límites si la cámara se mueve.
+    /// </summary>
+    void Update()
+    {
+        if (isGameOver) return;
+        
+        HandleTime();
+        CalculateStageBounds(); 
+    }
+
+    /// <summary>
+    /// Activa la secuencia de victoria (Música, UI, Pausa).
+    /// </summary>
+    public void PlayGameplayMusic()
+    {
         if (musicSource != null && gameplayMusic != null)
         {
+            if (musicSource.clip == gameplayMusic) return; // Ya está sonando
+            musicSource.Stop();
             musicSource.clip = gameplayMusic;
             musicSource.loop = true;
             musicSource.Play();
         }
-        if (victoryMusic == null) {
-            victoryMusic = Resources.Load<AudioClip>("Audio/victoryMusicName");
+    }
+
+    public void PlayBossMusic()
+    {
+        if (musicSource != null && bossMusic != null)
+        {
+            musicSource.Stop();
+            musicSource.clip = bossMusic;
+            musicSource.loop = true;
+            musicSource.Play();
         }
     }
 
-    void Update()
+    public void PlayVictoryMusic()
     {
-        HandleTime();
-        // AGREGA ESTO AQUÍ: Calculamos los límites en cada frame
-        CalculateStageBounds(); 
+        if (isGameOver) return;
+        isGameOver = true;
+
+        if (musicSource != null && victoryMusic != null)
+        {
+            musicSource.Stop();
+            musicSource.clip = victoryMusic;
+            musicSource.loop = false;
+            musicSource.Play();
+        }
+
+        if (UIManager.Instance != null)
+            UIManager.Instance.ShowGameResult("¡VICTORIA!", Color.green);
+
+        // 3. Detener el juego
+        Time.timeScale = 0f; 
+    }
+
+    /// <summary>
+    /// Activa la secuencia de derrota (Game Over).
+    /// </summary>
+    public void TriggerDefeat()
+    {
+        if (isGameOver) return;
+        isGameOver = true;
+        if (musicSource != null && defeatMusic != null)
+        {
+            musicSource.Stop();
+            musicSource.clip = defeatMusic;
+            musicSource.loop = false;
+            musicSource.Play();
+        }
+        else if (musicSource != null)
+        {
+            musicSource.Stop(); 
+        }
+        if (UIManager.Instance != null)
+            UIManager.Instance.ShowGameResult("GAME OVER", Color.red);
+        Time.timeScale = 0f; 
     }
 
     public void CalculateStageBounds()
@@ -66,14 +141,6 @@ public class StageManager : MonoBehaviour
         MaxY = mainCamera.transform.position.y + height;
         MinX = mainCamera.transform.position.x - width;
         MaxX = mainCamera.transform.position.x + width;
-    }
-    void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        // Dibuja un cuadrado representando los límites
-        Vector3 center = new Vector3((MinX + MaxX) / 2, (MinY + MaxY) / 2, 0);
-        Vector3 size = new Vector3(MaxX - MinX, MaxY - MinY, 1);
-        Gizmos.DrawWireCube(center, size);
     }
 
     private void HandleTime()
@@ -93,7 +160,9 @@ public class StageManager : MonoBehaviour
         }
     }
 
-    // --- MÉTODOS DE REGISTRO ---
+    /// <summary>
+    /// Registra una nueva bala enemiga y notifica a la UI.
+    /// </summary>
     public void RegisterEnemyBullet()
     {
         EnemyBulletCount++;
@@ -120,19 +189,13 @@ public class StageManager : MonoBehaviour
         OnPlayerBulletCountChanged?.Invoke(PlayerBulletCount);
     }
 
-    public void PlayVictoryMusic()
-{
-    if (musicSource == null)
+    public bool IsPositionOnStage(Vector2 position, float buffer = 3f)
     {
-        musicSource = GetComponent<AudioSource>();
+        return position.x > MinX + buffer && 
+               position.x < MaxX - buffer && 
+               position.y > MinY + buffer && 
+               position.y < MaxY - buffer;
     }
-
-    if (musicSource != null && victoryMusic != null)
-    {
-        musicSource.Stop(); // opcional: detiene la música actual
-        musicSource.PlayOneShot(victoryMusic); // reproducir jingle de victoria
-    }
-}
 
 
 }

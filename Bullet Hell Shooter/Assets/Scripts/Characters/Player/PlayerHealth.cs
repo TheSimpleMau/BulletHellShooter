@@ -1,6 +1,9 @@
 using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// Salud del jugador: manejo de invulnerabilidad temporal (i-frames) y muerte.
+/// </summary>
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Configuración de Vida")]
@@ -31,6 +34,9 @@ public class PlayerHealth : MonoBehaviour
             UIManager.Instance.UpdatePlayerHealth(currentHealth, maxHealth);
     }
 
+    /// <summary>
+    /// Resta vida, reproduce sonido y activa i-frames si no muere.
+    /// </summary>
     public void TakeDamage(int damage)
     {
         if (isInvulnerable) return;
@@ -47,10 +53,16 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-        Destroy(gameObject); 
+        if (StageManager.Instance != null)
+        {
+            StageManager.Instance.TriggerDefeat();
+        }
+        Destroy(gameObject);
     }
 
-    // Corrutina para el efecto de parpadeo
+    /// <summary>
+    /// Corrutina que hace parpadeo mientras dura la invulnerabilidad.
+    /// </summary>
     IEnumerator InvulnerabilityRoutine()
     {
         isInvulnerable = true;
